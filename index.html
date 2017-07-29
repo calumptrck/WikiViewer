@@ -5,42 +5,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>WikiViewer</title>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:700,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900" rel="stylesheet">
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
   <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
   <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
-  <script src="https://use.fontawesome.com/0e6a1b4153.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
   <script src="scripts/script.js"></script>
 </head>
 
 <body>
   <div class="container">
     <div class="mainentry mt-5">
-        <input type="text" placeholder="Search Wikipedia" required>
+        <input type="text" placeholder="Search Wikipedia" class="mainentry" required>
         <span class="bar"></span>
       </div>
-      <button type="button" class="btn btn-outline-primary mt-4 buttons">Search</button>
-      <button type="button" class="btn btn-outline-primary mt-4 buttons" style=float:right>Random Article</button>
-      <div class="entries mt-5">
-      <a href="#" class="clickable">
-      <div class="entry">
-        <h3>Cebu International School</h3>
-        <p>Cebu International School (CIS), was founded as the Cebu American School in 1924, and renamed in 1973.</p>
+      <button type="button" class="btn btn-outline-primary mt-4 buttons search">Search</button>
+      <a href="https://en.wikipedia.org/wiki/Special:Random"><button  href=type="button" class="btn btn-outline-primary mt-4 buttons" style=float:right>Random Article</button></a>
+      <div class="entries mt-5 mb-5">
       </div>
-      <div class="entry">
-        <h3>First Entry</h3>
-        <p>The description</p>
-      </div>
-      <div class="entry">
-        <h3>First Entry</h3>
-        <p>The description</p>
-      </div>
+
     </div>
-    </div>
+    
   </div>
 </body>
 
