@@ -97,8 +97,12 @@ a:hover, a:visited, a:link, a:active {
     color: #111;
 }
 
+.thedesc {
+  color: #555;
+}
+
 @media only screen and (max-width: 767px), only screen and (max-device-width: 480px) {
    .mainentry {
-     font-size: 55px;
+     font-size: 42px;
    }
 }
